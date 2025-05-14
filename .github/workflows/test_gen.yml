@@ -28,8 +28,8 @@ jobs:
 
     - name: Commit generated tests
       run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@github.com"
+        git config --global user.name "motwaniumesh"
+        git config --global user.email "umesh.motwani@slalom.com"
         git add tests/
         git commit -m "Auto-generated tests via AI Agent" || echo "No changes to commit"
         git push
